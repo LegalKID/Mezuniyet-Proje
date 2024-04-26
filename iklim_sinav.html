@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<h1>İklim Sınavı</h1>
+
+<form action="/action_page.php">
+  <p>İklim değişikliği nedir ?</p><br>
+  <input type="radio" id="iklim" name="fav_language" value="HTML">
+  <label for="iklim">A - İklimlerin başlama tarihlerinin uzaması</label><br>
+
+  <input type="radio" id="buzul" name="fav_language" value="CSS">
+  <label for="buzul">B - Buzulların erimesiyle oluşan veya başlayan bir değişikliktir</label><br>
+
+  <input type="radio" id="insan" name="fav_language" value="JavaScript">
+  <label for="insan">C - İnsanların göçü sonucu oluşan durum</label><br>
+
+  <p>İklim değişikliği neyden etkilenir ?</p><br>
+  <input type="radio" name="fav_language" id="soru2-1">
+  <label for="soru2-1">A - İnsanların yaptığı göç hareketinden.</label><br>
+
+  <input type="radio" name="fav_language" id="soru2-2">
+  <label for="soru2-2">B - Fosil yakıt kullanımı. Sera gazları vb.</label><br>
+
+  <input type="radio" name="fav_language" id="soru2-3">
+  <label for="soru2-3">C - Kıyafetler</label><br>
+
+
+  <p>İklim değişkiliği ilk kaç yılında görülmüştür ?</p><br>
+  <input type="radio" name="fav_language" id="soru3-1">
+  <label for="soru3-1">1500'li yıllar</label><br>
+
+  <input type="radio" name="fav_language" id="soru3-2">
+  <label for="soru3-2">1850'li yıllar</label><br>
+
+  <input type="radio" name="fav_language" id="soru3-3">
+  <label for="soru3-3">1000'li yıllar</label><br>
+
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
